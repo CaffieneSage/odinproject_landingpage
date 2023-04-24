@@ -1,0 +1,71 @@
+:root {
+    --background-dark: #1F2937;
+    --background-accent: #3882F6;
+    --background-light: #F9FAF8;
+    --background-quote: #E5E7EB;
+    --div-height: 210px;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+
+    background-color: var(--background-dark);
+}
+
+.navlink {
+    color: var(--background-light);
+    text-decoration: none;
+}
+
+.flex-container { 
+    display: flex;
+}
+
+.flex-container div {
+    height: 120px;
+    flex: 1;
+}
+
+.copyright {
+    width: 100%;
+    height: 70px;
+    background-color: var(--background-dark);
+}
+
+#div-intro {
+    width: 100%;
+    height: var(--div-height);
+    background-color: var(--background-dark);
+}
+
+#div-random-info {
+    width: 100%;
+    height: var(--div-height);
+    background-color: var(--background-light);
+    padding: 30px;
+    gap: 4px;
+}
+
+#div-random-info div {
+    border-style: solid;
+    border-color: var(--background-accent);
+    border-radius: 20px;
+
+    
+}
+
+#div-quoted-text {
+    width: 100%;
+    height: var(--div-height);
+    background-color: var(--background-quote);
+}
+
+#div-its-time {
+    width: 100%;
+    height: var(--div-height);
+    background-color: var(--background-light);
+}
+
+
+
